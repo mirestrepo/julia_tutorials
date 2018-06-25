@@ -55,7 +55,7 @@ grouped_bar_example()
 
 function stacked_bar_example()
     
-end()
+end
 stacked_bar_example()
 
 function two_hists()
@@ -75,3 +75,5 @@ function data_frame_scatter()
 end
 
 data_frame_scatter()
+
+

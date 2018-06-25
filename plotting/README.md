@@ -1,19 +1,23 @@
 ## Plotting and Visualization in Julia
 
+Last used: 
+BIOL6535 Preclinical Elective Summer 2018 at Brown University.
 
 ### Materials:
 
-* Introductory Slides: [![Intro Slides](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/bcbi/julia_tutorials/master?grs=github&t=white&p=plotting)
-* PlotlyJS.jl Notebook Viewer
-* Plots.jl Notebook Viewer
-* Seaborn.jl Notebook Viewer
+* Introductory Notebook: [Intro Slides](http://nbviewer.jupyter.org/github)
+* PlotlyJS [Notebook Viewer](http://nbviewer.jupyter.org/github/mirestrepo/julia_tutorials/blob/master/plotting/plotlyjs_basics.ipynb)
+* Plots [Notebook Viewer](http://nbviewer.jupyter.org/github/mirestrepo/julia_tutorials/blob/master/plotting/plots_basics.ipynb)
+* Seaborn [Notebook Viewer](http://nbviewer.jupyter.org/github/mirestrepo/julia_tutorials/blob/master/plotting/seaborn.ipynb)
+* Gadfly [Notebook Viewer](http://nbviewer.jupyter.org/github/mirestrepo/julia_tutorials/blob/master/plotting/gadfly_basics.ipynb)
+* PyPlot [Notebook Viewer](http://nbviewer.jupyter.org/github/mirestrepo/julia_tutorials/blob/master/plotting/pyplot_basics.ipynb)
 * (For instructors) To locally view the notebooks as slide you can install the notebook extension [RISE](https://github.com/damianavila/RISE)
 
 
-### Files in this diresctory:
+### Files in this directory:
 
-* PITCHME.md -- slides diplayed at gitpich.com
-* PITCHME.yaml -- slides configuration
+* Intro.ipynb -- Intro notebook
+* Intro.ipynb -- Julia script matching the corresponding notebook
 * plots_basics.ipynb - Jupyter notebook introducing Plots.jl
 * plots_basics.jl - Julia script matching the corresponding notebook
 * plotlyjs_basics.ipynb - Jupyter notebook introducing PlotlyJS.jl
@@ -23,6 +27,8 @@
 
 
 ### Dependencies:
+
+See install_dependencies.jl if you need to troubleshoot.
 
 ```julia
 # Packages to add - you may already have some of them

@@ -72,7 +72,7 @@ grouped_bar_example()
 
 function stacked_bar_example()
     
-end()
+end
 stacked_bar_example()
 
 function two_hists()
@@ -85,10 +85,3 @@ function box_plot()
    
 end
 box_plot()
-
-function data_frame_scatter()
-    iris = dataset("datasets", "iris");
-    display(head(iris))
-end
-
-data_frame_scatter()

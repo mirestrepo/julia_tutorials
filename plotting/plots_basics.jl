@@ -3,7 +3,7 @@ using Plots
 using StatPlots
 using DataFrames, RDatasets
 
-plotlyjs()
+gr()
 
 function linescatter()
     x=1:4
@@ -33,7 +33,7 @@ function multiple_scatter_traces_v2()
     y2 = [16, 5, 11, 9]
     y3 = [12, 9, 15, 12]
     y4 = [5, 10, 8, 12]
-    y = [y1, y2, y3, y4]
+    y = [y1 y2 y3 y4]
     plot(y, line=(2, [:solid :solid :dash :dash]))
 end
 multiple_scatter_traces_v2()
@@ -65,7 +65,6 @@ end
 area1()
 
 function plot_matrices()
-    pyplot()
     z = rand(10,10)
     plot(spy(z), heatmap(z), contour(z), surface(z))
 end
@@ -136,12 +135,17 @@ box_plot()
 
 
 
+
+
+
 function dataframe_scatter()
-    iris = dataset("datasets", "iris");
-#     display(head(iris));
-    scatter(iris, :SepalLength, :SepalWidth, group=:Species,
-        title = "Iris Sepal lengh vs width",
+    gr()
+    iris = dataset("datasets", "iris")#     
+     # display(head(iris))
+    @df iris scatter(:SepalLength, :SepalWidth, group=:Species,
+        title = "Iris Sepal length vs width",
         xlabel = "Length", ylabel = "Width",
         m=(0.5, [:cross :hex :star7], 12))
 end
+
 dataframe_scatter()

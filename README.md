@@ -1,2 +1,3 @@
-# julia_examples
-Jupyter notebooks with julia examples
+# Julia Intro Examples
+
+Jupyter notebooks with introductury julia examples

@@ -3,7 +3,7 @@ using PlotlyJS
 using DataFrames, RDatasets
 
 function linescatter()
-    trace1 = scatter(;x=1:4, y=[10, 15, 13, 18])
+    trace1 = scatter(x=1:4, y=[10, 15, 13, 18])
     plot(trace1)
 end
 linescatter()
